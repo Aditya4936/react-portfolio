@@ -23,6 +23,13 @@ const About = () => {
           understand the intricacies of computer science and to uncover its
           potential to transform our lives.
         </p>
+        <br />
+        <p className="text-xl">
+          Hailing from the vibrant town of Morbi, I've always been captivated by
+          the world of bits and bytes. My academic journey is fueled by a desire
+          to understand the intricacies of computer science and to uncover its
+          potential to transform our lives.
+        </p>
 
         <br />
         <p className="text-xl">
@@ -36,6 +43,14 @@ const About = () => {
           this exciting expedition as I merge creativity with code to build a
           future empowered by technology. Feel free to connect, collaborate, and
           be a part of my journey towards a brighter digital horizon!"
+        </p>
+        <br />
+        <p className="text-xl">
+          This portfolio serves as a window into my growth, projects, and
+          accomplishments. Join me on this exciting expedition as I merge
+          creativity with code to build a future empowered by technology. Feel
+          free to connect, collaborate, and be a part of my journey towards a
+          brighter digital horizon!"
         </p>
       </div>
     </div>

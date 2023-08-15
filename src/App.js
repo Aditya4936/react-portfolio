@@ -5,6 +5,7 @@ import Home from "./comoponets/Home";
 import Navbar from "./comoponets/Navbar";
 import Project from "./comoponets/Project";
 import SocialLinks from "./comoponets/SocialLinks";
+import Footer from "./comoponets/Footer";
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <Project />
       <Exper/>
       <Contact />
+      <Footer />
       <SocialLinks />
     </div>
   );

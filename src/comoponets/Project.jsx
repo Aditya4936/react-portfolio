@@ -5,6 +5,7 @@ import swapshoes from "../assets/project/swapshoes.jpg";
 import wooCommarce from "../assets/project/wooCommarce.jpg";
 import ecommarce from "../assets/project/ecommarce.jpg";
 import todolist from "../assets/project/todolist.jpg";
+import Agecalculator from "../assets/project/Agecalculator.jpg"
 const Project = () => {
   return (
     <div name="Projects"
@@ -18,7 +19,7 @@ const Project = () => {
           <p className="py-6"> Check out some of my Project</p>
         </div>
 
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-7 px-12 sm:px-0">
+          <div className="grid sm:grid-cols-3 md:grid-cols-3 gap-7 px-12 sm:px-0">
           <div className="shadow-md shadow-gray-600 rounded-lg">
             <img src={realestate}
               className="rounded-md duration-200 hover:scale-105"
@@ -124,6 +125,24 @@ const Project = () => {
             </div>
           </div>
         
+          <div className="shadow-md shadow-gray-600 rounded-lg mb-20 ">
+            <img
+              src={Agecalculator}
+             
+              className="rounded-md duration-200 hover:scale-105"
+            />
+            <div className="flex items-center justify-center ">
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href="https://age-calculator-aditya6984.vercel.app/" target="_blank" rel="noreferrer">
+                  Demo
+                </a>
+              </button>
+              <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <a href="https://github.com/Aditya4936/JS-Age-Calculator" target="_blank" rel="noreferrer">Code</a>
+              </button>
+            </div>
+          </div>
+
       </div>
     </div>
     </div>
